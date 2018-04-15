@@ -1,0 +1,118 @@
+<ion-header>
+    <ion-navbar>
+      <div>
+        <br>
+        <br>
+        <h1>
+          <b>&nbsp; &nbsp; &nbsp; Cursos</b>
+        </h1>
+        <font color="#3db7ff" size="2" align="left">
+          <p align="left">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Noturnos</p>
+        </font>
+        <ion-title>
+        </ion-title>
+      </div>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content padding>
+
+      <div>
+          <br>
+          <font color="#3db7ff" size="3" align="center">
+            <p align="center">Qual é o seu semestre e curso?</p>
+          </font>
+          <br>
+        </div>
+  
+    <ion-list>
+      <ion-list-header align="center">1° Semestre</ion-list-header>
+  
+      <div *ngFor="let curso of courses | async">
+        <button ion-item *ngIf="curso.turno === 'Noturno' && curso.semestre === '1'" (click)="verCurso(curso)">
+          {{curso.curso}}
+        </button>
+      </div>
+  
+    </ion-list>
+  
+    <ion-list>
+      <ion-list-header align="center">2° Semestre</ion-list-header>
+  
+      <div *ngFor="let curso of courses | async">
+        <button ion-item *ngIf="curso.turno === 'Noturno' && curso.semestre === '2'" (click)="verCurso(curso)">
+          {{curso.curso}}
+        </button>
+      </div>
+  
+    </ion-list>
+  
+    <ion-list>
+      <ion-list-header align="center">3° Semestre</ion-list-header>
+  
+      <div *ngFor="let curso of courses | async">
+        <button ion-item *ngIf="curso.turno === 'Noturno' && curso.semestre === '3'" (click)="verCurso(curso)">
+          {{curso.curso}}
+        </button>
+      </div>
+  
+    </ion-list>
+  
+    <ion-list>
+      <ion-list-header align="center">4° Semestre</ion-list-header>
+  
+      <div *ngFor="let curso of courses | async">
+        <button ion-item *ngIf="curso.turno === 'Noturno' && curso.semestre === '4'" (click)="verCurso(curso)">
+          {{curso.curso}}
+        </button>
+      </div>
+  
+    </ion-list>
+  
+    <ion-list>
+      <ion-list-header align="center">5° Semestre</ion-list-header>
+  
+      <div *ngFor="let curso of courses | async">
+        <button ion-item *ngIf="curso.turno === 'Noturno' && curso.semestre === '5'" (click)="verCurso(curso)">
+          {{curso.curso}}
+        </button>
+      </div>
+  
+    </ion-list>
+  
+    <ion-list>
+      <ion-list-header align="center">6° Semestre</ion-list-header>
+  
+      <div *ngFor="let curso of courses | async">
+        <button ion-item *ngIf="curso.turno === 'Noturno' && curso.semestre === '6'" (click)="verCurso(curso)">
+          {{curso.curso}}
+        </button>
+      </div>
+  
+    </ion-list>
+  
+    <ion-list>
+      <ion-list-header align="center">7° Semestre</ion-list-header>
+  
+      <div *ngFor="let curso of courses | async">
+        <button ion-item *ngIf="curso.turno === 'Noturno' && curso.semestre === '7'" (click)="verCurso(curso)">
+          {{curso.curso}}
+        </button>
+      </div>
+  
+    </ion-list>
+  
+    <ion-list>
+      <ion-list-header align="center">8° Semestre</ion-list-header>
+  
+      <div *ngFor="let curso of courses | async">
+        <button ion-item *ngIf="curso.turno === 'Noturno' && curso.semestre === '8'" (click)="verCurso(curso)">
+          {{curso.curso}}
+        </button>
+      </div>
+  
+    </ion-list>
+  
+  </ion-content>

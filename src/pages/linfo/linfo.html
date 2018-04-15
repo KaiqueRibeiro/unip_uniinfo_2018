@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-navbar>
+    <div>
+      <br>
+      <br>
+      <h1>
+        <b>&nbsp; &nbsp; &nbsp; Detalhes</b>
+      </h1>
+      <font color="#3db7ff" size="2" align="left">
+        <p align="left">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Locais</p>
+      </font>
+      <ion-title>
+      </ion-title>
+    </div>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <form [formGroup]="form">
+
+    <ion-card>
+
+      <ion-card-content>
+
+        <ion-card-title>
+          <ion-item>
+            <ion-input formControlName="ambiente" disabled="true"></ion-input>
+          </ion-item>
+
+        </ion-card-title>
+
+        <ion-item>
+          <ion-icon name="ios-pin" color="primary" item-start></ion-icon>
+          <ion-input formControlName="localizacao" disabled="true"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon name="ios-alarm" color="primary" item-start></ion-icon>
+          <ion-input formControlName="horario" disabled="true"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-input formControlName="descricao" disabled="true"></ion-input>
+        </ion-item>
+
+
+      </ion-card-content>
+    </ion-card>
+
+  </form>
+
+</ion-content>

@@ -1,0 +1,39 @@
+<ion-header>
+    <ion-navbar>
+      <div>
+        <br>
+        <br>
+        <h1>
+          <b>&nbsp; &nbsp; &nbsp; Locais</b>
+        </h1>
+        <font color="#3db7ff" size="2" align="left">
+          <p align="left">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; UniInfo</p>
+        </font>
+        <ion-title>
+        </ion-title>
+      </div>
+    </ion-navbar>
+  
+  </ion-header>
+
+<ion-content padding>
+
+    <div>
+        <br>
+        <font color="#3db7ff" size="3" align="center">
+          <p align="center">Selecione um local para obter informações:</p>
+        </font>
+        <br>
+      </div>
+
+    <ion-list>
+            
+        <div *ngFor="let local of places | async">
+          <button ion-item (click)="verLocal(local)">
+            {{local.ambiente}}
+          </button>
+        </div>
+    
+      </ion-list>
+
+</ion-content>

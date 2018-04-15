@@ -1,0 +1,4 @@
+﻿-   alt_1:  Remoção da página mapas;
+            Remoção das refereências da página mapas;
+
+-   alt_2:  Implantação ao GIT;

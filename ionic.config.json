@@ -1,0 +1,8 @@
+{
+  "name": "uniinfo_revA",
+  "app_id": "173defee",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

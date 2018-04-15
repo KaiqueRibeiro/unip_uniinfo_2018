@@ -1,0 +1,81 @@
+<ion-header>
+  <ion-navbar>
+    <div>
+      <br>
+      <br>
+      <h1>
+        <b>&nbsp; &nbsp; &nbsp; Detalhes</b>
+      </h1>
+      <font color="#3db7ff" size="2" align="left">
+        <p align="left">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Cursos</p>
+      </font>
+      <ion-title>
+      </ion-title>
+    </div>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <form [formGroup]="form">
+
+    <ion-card>
+
+      <ion-card-content>
+
+        <ion-card-title>
+          <ion-item>
+            <ion-input formControlName="curso" disabled="true"></ion-input>
+          </ion-item>
+
+        </ion-card-title>
+
+        <ion-item>
+          <ion-icon name="ios-alarm" color="primary" item-start></ion-icon>
+          <ion-input formControlName="turno" disabled="true"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon name="ios-calendar" color="primary" item-start></ion-icon>
+          <ion-label>Semestre:</ion-label>
+          <ion-input formControlName="semestre" disabled="true"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon name="ios-checkmark-circle" color="primary" item-start></ion-icon>
+          <ion-label>Seg:</ion-label>
+          <ion-input formControlName="sseg" disabled="true"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon name="ios-checkmark-circle" color="primary" item-start></ion-icon>
+          <ion-label>Ter:</ion-label>
+          <ion-input formControlName="ster" disabled="true"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon name="ios-checkmark-circle" color="primary" item-start></ion-icon>
+          <ion-label>Qua:</ion-label>
+          <ion-input formControlName="squa" disabled="true"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon name="ios-checkmark-circle" color="primary" item-start></ion-icon>
+          <ion-label>Qui:</ion-label>
+          <ion-input formControlName="squi" disabled="true"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon name="ios-checkmark-circle" color="primary" item-start></ion-icon>
+          <ion-label>Sex:</ion-label>
+          <ion-input formControlName="ssex" disabled="true"></ion-input>
+        </ion-item>
+
+      </ion-card-content>
+    </ion-card>
+
+  </form>
+
+</ion-content>

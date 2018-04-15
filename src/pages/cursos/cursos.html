@@ -1,0 +1,77 @@
+<ion-header>
+    <ion-navbar>
+      <div>
+        <br>
+        <br>
+        <h1>
+          <b>&nbsp; &nbsp; &nbsp; Cursos</b>
+        </h1>
+        <font color="#3db7ff" size="2" align="left">
+          <p align="left">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; UniInfo</p>
+        </font>
+        <ion-title>
+        </ion-title>
+      </div>
+    </ion-navbar>
+  
+  </ion-header>
+
+<ion-content padding>
+    <div>
+        <br>
+        <font color="#3db7ff" size="3" align="center">
+          <p align="center">Qual é o turno?</p>
+        </font>
+        <br>
+      </div>
+
+      <ion-card>                
+          <ion-card-content>      
+            <ion-card-title>
+              <ion-item>
+                <ion-icon name="ios-sunny" color="primary" item-start>
+                </ion-icon>
+                <h2>Matiturno</h2>
+                <h3>Tradicionais e tecnológicos</h3>
+                <br>
+                <p>Cursos oferecidos no periodo
+                  <br>da manhã.</p>
+              </ion-item>
+            </ion-card-title>
+            <ion-list>
+              <ion-item>
+                <ion-icon name="ios-eye" item-start></ion-icon>
+                <button ion-button clear (click)="goToLmatiturno()">
+                  Ver
+                </button>
+              </ion-item>              
+            </ion-list>      
+          </ion-card-content>
+        </ion-card>
+        <br>
+        <br>
+      <ion-card>                
+          <ion-card-content>      
+            <ion-card-title>
+              <ion-item>
+                <ion-icon name="ios-moon" color="primary" item-start>
+                </ion-icon>
+                <h2>Noturno</h2>
+                <h3>Tradicionais e tecnológicos</h3>
+                <br>
+                <p>Cursos oferecidos no periodo
+                  <br>da noite.</p>
+              </ion-item>
+            </ion-card-title>
+            <ion-list>
+              <ion-item>
+                <ion-icon name="ios-eye" item-start></ion-icon>
+                <button ion-button clear (click)="goToLnoturno()">
+                  Ver
+                </button>
+              </ion-item>              
+            </ion-list>      
+          </ion-card-content>
+        </ion-card>
+
+</ion-content>
