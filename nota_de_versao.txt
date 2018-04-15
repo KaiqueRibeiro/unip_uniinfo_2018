@@ -2,3 +2,9 @@
             Remoção das refereências da página mapas;
 
 -   alt_2:  Implantação ao GIT;
+            COMANDO DE SINCRONIZAÇÃO COM GITHUB:
+
+            -Modificação de arquivos +
+                git add .
+                git commit -m "TÍTULO DA VERSÃO"
+                git push origin master
