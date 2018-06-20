@@ -1,8 +1,6 @@
 {
-  "name": "uniinfo_revA",
-  "app_id": "173defee",
+  "name": "firebase_test_revA",
+  "app_id": "1f22f4df",
   "type": "ionic-angular",
-  "integrations": {
-    "cordova": {}
-  }
+  "integrations": {}
 }
